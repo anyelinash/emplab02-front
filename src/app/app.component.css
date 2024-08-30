@@ -1,0 +1,64 @@
+/* Estilo general para el contenedor de las tarjetas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espacio entre tarjetas */
+  }
+  
+  /* Estilo para la tarjeta del personaje */
+  .card {
+    flex: 1 1 calc(25% - 1rem); /* Cada tarjeta ocupa el 25% del ancho menos el espacio del gap */
+    max-width: 250px; /* Tamaño máximo de la tarjeta */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para la imagen de la tarjeta */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Tamaño máximo de la imagen */
+    object-fit: cover; /* Mantiene la proporción y recorta la imagen si es necesario */
+  }
+  
+  /* Estilo para el cuerpo de la tarjeta */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Estilo para el título de la tarjeta */
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para el texto de la tarjeta */
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para las listas de cómics, series e historias */
+  .card-body ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card-body li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-body a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-body a:hover {
+    text-decoration: underline;
+  }
+  
+h1{
+    text-align: center;
+}
